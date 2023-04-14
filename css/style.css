@@ -1,4 +1,7 @@
 /* fonts  */
+
+/* media for display */
+
 @font-face {
     font-family:"Raleway-regular";
     src:url(../fonts/Raleway-Regular.ttf)
@@ -24,6 +27,7 @@
     src:url(../fonts/Raleway-Black.ttf)
 }
 
+/* common css */
 
 /* colors  */
 
@@ -54,6 +58,8 @@ body{
     padding:o 15px;
     margin:0 auto;
 }
+
+/* media for responsiveness */
 
 @media (min-width:576px){
     .container{
